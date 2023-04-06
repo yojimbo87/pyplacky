@@ -23,6 +23,7 @@ second_name = df.loc["L24CA", "Name"]
 df2 = df.loc[["L24CA", "K22FL"], ["Name", "Age"]]
 
 # Get rows with "Name" and "Age" column where "Age" is between 20 and 30 as DF
+# https://towardsdatascience.com/conditional-selection-and-assignment-with-loc-in-pandas-2a5d17c7765b
 df3 = df.loc[(df["Age"] >= 20) & (df["Age"] <= 30), ["Name", "Age"]]
 
 # Print all the things

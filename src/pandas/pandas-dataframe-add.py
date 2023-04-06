@@ -12,6 +12,7 @@ df = pd.DataFrame(
 df.loc[:, "State"] = ["NY", "CA"]
 
 # Add new row to DF (at the end) when default index is used
+# https://vitalflux.com/pandas-dataframe-how-to-add-rows-columns/
 df.loc[len(df)] = { 
     "Name": "Karl", 
     "Age": 33,
